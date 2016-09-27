@@ -11,8 +11,8 @@ end
 
 def menu
   "<ul>"\
-    "<li><a href=\"/static_pages/home\">Home</a></li>"\
-    "<li><a href=\"/static_pages/help\">Help</a></li>"\
+    "<li>" + link_to("Home","/static_pages/home") + "</li>"\
+    "<li>" + link_to("Help","/static_pages/help") + "</li>"\
   "</ul>"
 end
 
