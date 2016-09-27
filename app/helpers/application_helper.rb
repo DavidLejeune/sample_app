@@ -8,4 +8,12 @@ def full_title(page_title = '')
     page_title + " | " + base_title
   end
 end
+
+def menu
+  "<ul>"\
+    "<li><a href=\"/static_pages/home\">Home</a></li>"\
+    "<li><a href=\"/static_pages/help\">Help</a></li>"\
+  "</ul>"
+end
+
 end
