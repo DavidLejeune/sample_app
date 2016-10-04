@@ -16,13 +16,20 @@
 
  */
 
- @import 'foundation';
 
+ @import 'foundation';
 
  .welcome-callout{
    @include callout-style($secondary-color);
-  padding : 4em;
-  margin : 2em;
+   padding : 4em;
+   margin : 2em;
 
-  text-align : center;
+   text-align : center;
  }
+
+
+.top-bar{
+  .menu-text{
+    color: white;
+  }
+}
