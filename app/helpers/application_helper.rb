@@ -9,11 +9,5 @@ def full_title(page_title = '')
   end
 end
 
-def menu
-  "<ul>"\
-    "<li>" + link_to("Home","/static_pages/home") + "</li>"\
-    "<li>" + link_to("Help","/static_pages/help") + "</li>"\
-  "</ul>"
-end
 
 end
