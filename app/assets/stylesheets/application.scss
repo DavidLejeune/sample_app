@@ -15,3 +15,12 @@
  *= require foundation_and_overrides
 
  */
+
+ @import 'foundation';
+
+
+ .welcome-callout{
+   @include callout-style($secondary-color);
+  padding : 4em;
+  margin : 2em;
+ }
