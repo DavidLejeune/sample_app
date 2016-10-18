@@ -33,3 +33,10 @@
     color: white;
   }
 }
+
+
+.debug_dump{
+  @include callout-style($secondary-color);
+  padding: 1em;
+  margin: 2em;
+}
